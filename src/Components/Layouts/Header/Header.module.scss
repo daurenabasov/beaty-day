@@ -1,0 +1,52 @@
+@import "../../../Assets/Fonts/Font";
+
+.header {
+  height: 100px;
+  background-color: #2b2828;
+  color: #fff;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 10px;
+  height: 100%;
+}
+.content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.image {
+  width: 10%;
+  height: 100%;
+  margin-right: 60px;
+}
+.link {
+  margin-right: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.call {
+  margin-left: 140px;
+  margin-right: 130px;
+  margin-bottom: 5px;
+  & p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 19px;
+  }
+}
+.social {
+  display: flex;
+}
+.icons {
+  margin-right: 10px;
+  background-color: #f4ad7b;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
