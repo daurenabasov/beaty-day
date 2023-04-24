@@ -1,5 +1,5 @@
 import { FC, ReactNode } from "react";
-import s from './Button.module.scss'
+import s from './Button.module.scss';
 
 interface IButton {
   children: ReactNode;

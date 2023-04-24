@@ -1,7 +1,9 @@
 .header {
   height: 100px;
-  background-color: #222328;
   color: #fff;
+  background-color: #2a2c30;
+  position: relative;
+  z-index: 66666;
 }
 .container {
   max-width: 90%;
