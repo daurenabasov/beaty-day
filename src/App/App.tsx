@@ -1,4 +1,5 @@
 // import React from 'react';
+import AppRoutes from '../Routes/AppRoutes';
 import { useCategoriesQuery, useServicesQuery } from '../Store/BeatyDayApi/BeatyDay.api';
 
 const App = () => {
@@ -11,9 +12,7 @@ const App = () => {
   
   
   return (
-    <div>
-      
-    </div>
+    <AppRoutes />
   );
 };
 
