@@ -2,6 +2,7 @@
 import AppRoutes from '../Routes/AppRoutes';
 import { useCategoriesQuery, useServicesQuery } from '../Store/BeatyDayApi/BeatyDay.api';
 
+
 const App = () => {
   const {data: servicesData} = useServicesQuery(null)
   const {data: categoryData} = useCategoriesQuery(null)

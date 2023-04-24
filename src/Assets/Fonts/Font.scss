@@ -1,3 +1,90 @@
-h1 {
-    margin: 0;
-}
+@font-face {
+    font-family: 'Jost';
+    src: url('../Fonts/Font/Jost-Bold.eot');
+    src: url('../Fonts/Font/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/Jost-Bold.woff2') format('woff2'),
+        url('../Fonts/Font/Jost-Bold.woff') format('woff'),
+        url('../Fonts/Font/Jost-Bold.ttf') format('truetype'),
+        url('../Fonts/Font/Jost-Bold.svg#Jost-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('../Fonts/Font/Jost-Regular.eot');
+    src: url('../Fonts/Font/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/Jost-Regular.woff2') format('woff2'),
+        url('../Fonts/Font/Jost-Regular.woff') format('woff'),
+        url('../Fonts/Font/Jost-Regular.ttf') format('truetype'),
+        url('../Fonts/Font/Jost-Regular.svg#Jost-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('../Fonts/Font/Jost-Medium.eot');
+    src: url('../Fonts/Font/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/Jost-Medium.woff2') format('woff2'),
+        url('../Fonts/Font/Jost-Medium.woff') format('woff'),
+        url('../Fonts/Font/Jost-Medium.ttf') format('truetype'),
+        url('../Fonts/Font/Jost-Medium.svg#Jost-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Jost';
+    src: url('../Fonts/Font/Jost-SemiBold.eot');
+    src: url('../Fonts/Font/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/Jost-SemiBold.woff2') format('woff2'),
+        url('../Fonts/Font/Jost-SemiBold.woff') format('woff'),
+        url('../Fonts/Font/Jost-SemiBold.ttf') format('truetype'),
+        url('../Fonts/Font/Jost-SemiBold.svg#Jost-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('../Fonts/Font/PlayfairDisplay-Bold.eot');
+    src: url('../Fonts/Font/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../Fonts/Font/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../Fonts/Font/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../Fonts/Font/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('../Fonts/Font/PlayfairDisplay-Medium.eot');
+    src: url('../Fonts/Font/PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../Fonts/Font/PlayfairDisplay-Medium.woff') format('woff'),
+        url('../Fonts/Font/PlayfairDisplay-Medium.ttf') format('truetype'),
+        url('../Fonts/Font/PlayfairDisplay-Medium.svg#PlayfairDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('../Fonts/Font/PlayfairDisplay-Regular.eot');
+    src: url('../Fonts/Font/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Font/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../Fonts/Font/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../Fonts/Font/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../Fonts/Font/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
