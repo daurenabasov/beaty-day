@@ -1,18 +1,32 @@
 .hero {
   height: calc(100vh - 100px);
-  padding: 100px;
   color: #fff;
   background-color: #2a2c30;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: -100px;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-position: right;
+  }
 }
 .container {
   max-width: 70%;
   margin: 0 auto;
+  padding: 150px 0;
 }
 .btn > Button {
   width: 347px;
 }
 .content {
   max-width: 705px;
+  display: flex;
+  justify-content: space-between;
   & h1 {
     font-family: "Playfair Display";
     font-weight: 400;
@@ -43,5 +57,16 @@
       height: 0px;
       border: 1px solid #fff;
     }
+  }
+}
+.lady__img {
+  position: absolute;
+  width: 852px;
+  height: 524px;
+  right: 270px;
+  bottom: 0;
+  & img{
+    width: 100%;
+    height: 100%;
   }
 }
